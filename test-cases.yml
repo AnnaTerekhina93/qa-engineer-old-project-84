@@ -1,0 +1,116 @@
+- summary: |
+    поиск товара по ключевому слову или категории
+requirement: |
+   при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  открыта страница сайта с товарами
+steps:
+    - Нажимаем конопку Category
+    - Выбираем skincare
+expected-result: |
+   Открывается страница с товарами из категории skincare
+   
+   
+   
+   
+- summary: |
+    фильтр товара по цене
+requirement: |
+   при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  открыта страница сайта с товарами
+steps:
+    - В поле From - To выбираем значение 40-120
+expected-result: |
+   Открывается страница с товарами со стоимостью от 40$ до 60$
+    
+    
+    
+    
+    
+- summary: |
+    подробная информация о товаре
+requirement: |
+   при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  открыта страница сайта с товарами
+steps:
+    - Пользователь кликает на товар iPhone X
+expected-result: |
+   Открывается страница с подробным описанием товара
+   
+   
+   
+   
+   
+- summary: |
+    добавление товара в корзину
+requirement: |
+   при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  открыта страница сайта с товарами
+steps:
+    - Пользователь выбирает товар MacBook Pro
+    - Нажимаем кнопку Add to cart 
+expected-result: |
+   Товар добавлен в корзину
+   
+   
+   
+   
+   
+- summary: |
+   просматр содержимого корзины
+requirement: |
+  при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  товар добавлен в корзину
+steps:
+    - Пользователь нажимает кнопку Cart
+expected-result: |
+   Пользователь видит товары,которые добавил в корзину
+   
+   
+   
+   
+- summary: |
+ выбор языка 
+requirement: |
+   при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  открыта страница сайта с товарами
+steps:
+    - Нажимаем конопку Language
+    - Выбираем Russia
+expected-result: |
+   Сайт поменял язык на Russia
+    
+    
+    
+    
+    
+- summary: |
+  Удалить товар из корзины
+requirement: |
+   при верном вводе логине и пароля пользователь должен войти в систему
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/
+test-data: |
+  открыта страница с товарами в корзине
+steps:
+    - Нажимаем конопку Удалить рядом с товаром, который нужно удалить
+expected-result: |
+Товар успешно удален
+    
