@@ -10,7 +10,7 @@ status: pass
 
 - summary: |
     подробная информация о товаре
-status: pass
+status: fail
 
 
 - summary: |
