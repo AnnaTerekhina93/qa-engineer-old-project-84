@@ -25,7 +25,7 @@ status: pass
 
 - summary: |
  выбор языка 
-status: pass
+status: fail
 
 
 - summary: |
