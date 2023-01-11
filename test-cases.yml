@@ -221,6 +221,38 @@ expected-result: |
 
    
 
+
+- summary: |
+  Сайт работает в мобильном браузере
+requirement: |
+  при входе на сайт с мобильного телефона iPhone 11 сайт корректно работает
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/ в мобильном браузере Safari
+test-data: |
+  сайт корректно работает в мобильном браузере Safari
+steps:
+    - Запускаем браузер Safari
+    - Вводим имя сайта hexlet-products-store.vercel.app
+expected-result: |
+Сайт работает корректно
+
+
+
+- summary: |
+  Сайт работает в браузере Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+requirement: |
+  при входе на сайт с ПК Windows 10 сайт работает корректно
+prerequisites: |
+   открыта страница сайта https://hexlet-products-store.vercel.app/ на ПК Windows 10 , браузер Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+test-data: |
+  сайт корректно работает в браузере Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+steps:
+    - Запускаем браузер Google Chrome 
+    - Вводим имя сайта hexlet-products-store.vercel.app
+expected-result: |
+Сайт работает корректно
+
+
  
 - summary: |
     способ оплаты на сайте
