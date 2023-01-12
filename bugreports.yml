@@ -138,7 +138,7 @@ actual-result: |
    
    
    
-   - summary: |
+- summary: |
   Не работает хэштег по товару
 environment: |
    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
