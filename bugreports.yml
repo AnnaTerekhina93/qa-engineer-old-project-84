@@ -1,136 +1,136 @@
 - summary: |
     Не сразу меняется язык 
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Нажимаем кнопку Language
-   3. Выбираем язык Рууский
-expected-result: |
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Нажимаем кнопку Language
+    3. Выбираем язык Рууский
+  expected-result: |
     Язык сразу меняется
-actual-result: |
+  actual-result: |
     Язык не меняется. Меняется только после обновления страницы.
         
 - summary: |
     Не работает поле поиска товара по слову
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. В поле Search вводим товар под названием Apple
-expected-result: |
-   Отображаются все товары бренда Apple
-actual-result: |
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. В поле Search вводим товар под названием Apple
+  expected-result: |
+    Отображаются все товары бренда Apple
+  actual-result: |
     Отображается надпись "Nothing found!"
     
 - summary: |
-   Отсутсвует подробное описание товара
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Нажимаем на товар iPhone X
-expected-result: |
-   Отображаются подробное описание товара
-actual-result: |
-   Подробное описание товара отсутсвует 
+    Отсутсвует подробное описание товара
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Нажимаем на товар iPhone X
+  expected-result: |
+    Отображаются подробное описание товара
+  actual-result: |
+    Подробное описание товара отсутсвует 
      
 - summary: |
-   Невозможно офрмить заказ
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Добавляем товар в корзину 
-   3. Нажимаем кнопку Checkout
-expected-result: |
-  Отображается страница с данными об оформлении заказа
-actual-result: |
-  Ничего не отображается для оформления заказа.
+    Невозможно офрмить заказ
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Добавляем товар в корзину 
+    3. Нажимаем кнопку Checkout
+  expected-result: |
+    Отображается страница с данными об оформлении заказа
+  actual-result: |
+    Ничего не отображается для оформления заказа.
       
 - summary: |
-   Не работает кнопка X (крестик в правом верхнем углу)
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Нажимаем на корзину  
-   3. Выбираем товар добавленный в корзину 
-   4. Нажимаем кнопку X в правом верхнем углу
-expected-result: |
-  Окно с товаром в корзине закрывается
-actual-result: |
-  Окно с товаром в корзине не закрывается
+    Не работает кнопка X (крестик в правом верхнем углу)
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Нажимаем на корзину  
+    3. Выбираем товар добавленный в корзину 
+    4. Нажимаем кнопку X в правом верхнем углу
+  expected-result: |
+    Окно с товаром в корзине закрывается
+  actual-result: |
+    Окно с товаром в корзине не закрывается
    
 - summary: |
-  Некорректно работает категория "smartphones"
-environment: |
-  Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-  Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Нажимаем на кнопку Category  
-   3. Выбираем smartphones
-expected-result: |
-  Отображаются все товары из категории smartphones
-actual-result: |
-  Отображается только один товар из категории smartphones 
+    Некорректно работает категория "smartphones"
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Нажимаем на кнопку Category  
+    3. Выбираем smartphones
+  expected-result: |
+    Отображаются все товары из категории smartphones
+  actual-result: |
+    Отображается только один товар из категории smartphones 
    
 - summary: |
-  Некорректно работает кнопка "Store"
-environment: |
-  Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-  Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Выбираем бренд Samsung в левой панеле страницы 
-   3. Нажимаем кнопку "Store"
-expected-result: |
- Отображается стартовая страница магазина
-actual-result: |
- Не работает кнопка "Store", стартовая страница не отображается 
+    Некорректно работает кнопка "Store"
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Выбираем бренд Samsung в левой панеле страницы 
+    3. Нажимаем кнопку "Store"
+  expected-result: |
+    Отображается стартовая страница магазина
+  actual-result: |
+    Не работает кнопка "Store", стартовая страница не отображается 
   
 - summary: |
-  Невозможно выбрать фильтр по цвету
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Нет функции выбрать товар по цвету
-expected-result: |
-   Есть функция фильтра по цвету
-actual-result: |
-   Функция фильтр по цвету отсутствует  
+    Невозможно выбрать фильтр по цвету
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Нет функции выбрать товар по цвету
+  expected-result: |
+    Есть функция фильтра по цвету
+  actual-result: |
+    Функция фильтр по цвету отсутствует  
 
 - summary: |
-  Невозможно выбрать фильтр по размеру
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Нет функции выбрать товар по размеру
-expected-result: |
-   Есть функция фильтра по размеру
-actual-result: |
-   Функция фильтр по размеру отсутствует  
+    Невозможно выбрать фильтр по размеру
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Нет функции выбрать товар по размеру
+  expected-result: |
+    Есть функция фильтра по размеру
+  actual-result: |
+    Функция фильтр по размеру отсутствует  
       
 - summary: |
-  Не работает хэштег по товару
-environment: |
-   Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
-   Windows 10 64-разрядная операционная система, процессор x64
-steps-to-reproduce: |
-   1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
-   2. Открыта страница с товаром
-   3. Нажимаем на хэштег #tops
-expected-result: |
-   Открываются все товары по хэштэгу #tops
-actual-result: |
-   При нажатии на хэштег товары не отображаются  
+    Не работает хэштег по товару
+  environment: |
+    Google Chrome Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Windows 10 64-разрядная операционная система, процессор x64
+  steps-to-reproduce: |
+    1. Открыт веб-сайт https://hexlet-products-store.vercel.app/
+    2. Открыта страница с товаром
+    3. Нажимаем на хэштег #tops
+  expected-result: |
+    Открываются все товары по хэштэгу #tops
+  actual-result: |
+    При нажатии на хэштег товары не отображаются  
