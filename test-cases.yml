@@ -8,7 +8,7 @@
     Открыта страница сайта с товарами
   steps:
   - В поле Search вводим iPhone
-expected-result: |
+  expected-result: |
   Открывается страница с товарами по ключевому слову iPhone
      
 - summary: |
