@@ -26,56 +26,56 @@
 
 - summary: |
     Регистрация пользователя 
-  status: n/a
+  status: fail
 
 - summary: |
     Авторизация на сайте с существующим логином и паролем
-  status: n/a
+  status: fail
 
 - summary: |
     Авторизация на сайте с несуществующим логином и паролем
-  status: n/a
+  status: fail
 
 - summary: |
     Авторизация на сайте с невалидными данными
-  status: n/a
+  status: fail
 
 - summary: |
     Регистрация на сайте с невалидными данными
-  status: n/a
+  status: fail
 
 - summary: |
     Регистрация на сайте с именем превышающее 20 букв
-  status: n/a
+  status: fail
 
 - summary: |
     Регистрация на сайте с логином превышающее 10 букв
-  status: n/a
+  status: fail
 
 - summary: |
     Регистрация на сайте с паролем превышающее 10 символов
-  status: n/a
+  status: fail
 
 - summary: |
     Способ оплаты на сайте
-  status: n/a
+  status: fail
 
 - summary: |
     Оплата товара на сайте с привязанной банковской карты
-  status: n/a
+  status: fail
 
 - summary: |
     Оплата товара на сайте без привязанной карты
-  status: n/a
+  status: fail
 
 - summary: |
     Привязка банковской карты на сайте 
-  status: n/a
+  status: fail
 
 - summary: |
     Отмена заказа до того как он был создан
-  status: n/a
+  status: fail
 
 - summary: |
     Выбор города доставки заказа
-  status: n/a  
+  status: fail  
