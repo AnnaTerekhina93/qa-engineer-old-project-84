@@ -60,24 +60,24 @@
 
 - summary: |
     Способ оплаты на сайте
-  status: n/a
+  status: 
 
 - summary: |
     Оплата товара на сайте с привязанной банковской карты
-  status: n/a
+  status: fail
 
 - summary: |
     Оплата товара на сайте без привязанной карты
-  status: n/a
+  status: fail
 
 - summary: |
     Привязка банковской карты на сайте 
-  status: n/a
+  status: fail
 
 - summary: |
     Отмена заказа до того как он был создан
-  status: n/a
+  status: fail
 
 - summary: |
     Выбор города доставки заказа
-  status: n/a  
+  status: fail  
